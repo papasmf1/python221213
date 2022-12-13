@@ -1,4 +1,7 @@
 # function3.py
+
+print("hello")
+
 #가변형식인 경우
 wordlist = ["J","A","M"]
 
