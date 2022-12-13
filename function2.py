@@ -5,6 +5,7 @@ def setValue(newValue):
     print(x)
 
 #호출
+#디버깅할 때 중단점
 retValue = setValue(5)
 print(retValue)
 
