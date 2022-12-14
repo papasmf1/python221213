@@ -10,6 +10,7 @@ class BankAccount:
         self.__balance += amount 
     def withdraw(self, amount):
         self.__balance -= amount
+    #ToString()메서드
     def __str__(self):
         return "{0}, {1}, {2}".format(self.__id, 
         self.__name, self.__balance)
@@ -20,7 +21,7 @@ account1.deposit(5000)
 account1.withdraw(3000)
 print(account1)
 #테스트하는 용도(백도어)
-print(account1._BankAccount__balance)
+#print(account1._BankAccount__balance)
 
 
 
