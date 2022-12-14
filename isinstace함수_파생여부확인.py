@@ -1,7 +1,9 @@
-class Person:
+class Person(object):
     pass
-class Bird:
+
+class Bird(object):
     pass
+
 class Student(Person):
     pass
 
